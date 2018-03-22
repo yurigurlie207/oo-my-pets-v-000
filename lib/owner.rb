@@ -82,7 +82,7 @@ class Owner
           dogcount = petArray.size
         end
 
-        puts "#{@pets[type].vlaue}"
+        puts "#{@pets[type].value}"
     }
     return "I have #{fishcount} fish, #{dogcount} dog(s), and #{catcount} cat(s)."
   end
