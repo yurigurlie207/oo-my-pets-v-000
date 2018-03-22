@@ -74,7 +74,7 @@ class Owner
     catcount = 0
     dogcount = 0
     @pets.each { |type, petArray|
-        if @pets[type] == "fishes"
+        if @pets[type] == :fishes
            fishcount = petArray.size
         elsif @pets[type] == "cats"
           catcount = petArray.size
