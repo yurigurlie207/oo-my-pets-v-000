@@ -64,7 +64,7 @@ class Owner
 
   def sell_pets
     @pets.each { |type, object|
-      object.each { |petObj| petObj.mood = "nervous" }
+      petArray.each { |petObj| petObj.mood = "nervous" }
     }
   end
 
