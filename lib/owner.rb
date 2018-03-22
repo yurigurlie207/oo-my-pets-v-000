@@ -2,6 +2,7 @@ class Owner
   # code goes here
   attr_accessor :owner
   attr_writer :species
+  
   @@all = []
 
   def initialize(owner)
