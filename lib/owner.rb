@@ -1,6 +1,6 @@
 class Owner
   # code goes here
-  attr_accessor :owner, :namespecies
+  attr_accessor :owner, :name, :species
 
   @@all = []
 
@@ -28,6 +28,10 @@ class Owner
 
   def self.reset_all
     @@all = []
+  end
+
+  def name=(name)
+    @name = name
   end
 
 end
