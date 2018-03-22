@@ -70,9 +70,11 @@ class Owner
   end
 
   def list_pets
-    list = ""
+    list = "I have "
 
     @pets.each { |type, petArray|
+      list = " #{@pets[type].size}"
+      
     }
   end
 
