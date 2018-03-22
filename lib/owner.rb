@@ -9,6 +9,10 @@ class Owner
     @species = "human"
   end
 
+  def species=(species)
+    raise NoMethodError
+  end
+
   def self.all
     @@all
   end
