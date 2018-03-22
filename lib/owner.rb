@@ -69,4 +69,7 @@ class Owner
     @pets = { fishes: [], cats: [], dogs: [] }
   end
 
+  def list_pets
+  end
+
 end
