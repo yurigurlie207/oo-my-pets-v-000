@@ -78,7 +78,7 @@ class Owner
            fishcount = petArray.size
         elsif type == :cats
           catcount = petArray.size
-        else @pets[type] == :dogs
+        else type == :dogs
           dogcount = petArray.size
         end
 
