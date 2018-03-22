@@ -11,6 +11,4 @@ class Cat
     raise NoMethodError
   end
 
-
-
 end
