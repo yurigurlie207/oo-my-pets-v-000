@@ -75,7 +75,7 @@ class Owner
         elsif @pets[type].value == "cats" then catcount = petArray.size
         else @pets[type].value == "dogs" then dogcount = petArray.size end
     }
-    return "I have #{fishcount} fish, #{dogcount} dog(s), and #{catcount} cat(s).""
+    return "I have #{fishcount} fish, #{dogcount} dog(s), and #{catcount} cat(s)."
   end
 
 end
