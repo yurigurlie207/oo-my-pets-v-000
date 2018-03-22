@@ -71,11 +71,11 @@ class Owner
 
   def list_pets
     @pets.each { |type, petArray|
-        if @pets[type].key == "fishes"
+        if @pets[type] == "fishes"
            fishcount = petArray.size
-        elsif @pets[type].value == "cats"
+        elsif @pets[type] == "cats"
           catcount = petArray.size
-        else @pets[type].value == "dogs"
+        else @pets[type] == "dogs"
           dogcount = petArray.size
         end
     }
