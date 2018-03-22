@@ -66,7 +66,6 @@ class Owner
     @pets.each { |type, petArray|
       petArray.each { |petObj| petObj.mood = "nervous" }
     }
-
     @pets = { fishes: [], cats: [], dogs: [] }
   end
 
