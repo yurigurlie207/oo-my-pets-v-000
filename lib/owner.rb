@@ -76,13 +76,13 @@ class Owner
     @pets.each { |type, petArray|
         if type == :fishes
            fishcount = petArray.size
-        elsif @pets[type] == :cats
+        elsif type == :cats
           catcount = petArray.size
         else @pets[type] == :dogs
           dogcount = petArray.size
         end
 
-        puts "#{@pets[type].key}"
+        puts "#{type"
     }
     return "I have #{fishcount} fish, #{dogcount} dog(s), and #{catcount} cat(s)."
   end
