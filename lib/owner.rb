@@ -70,14 +70,15 @@ class Owner
   end
 
   def list_pets
-    list = "I have "
 
     @pets.each { |type, petArray|
-      list = list + " #{@pets[type].size}"
         if @pets[type].value == "fishes" then fishcount = petArray.size
         elsif @pets[type].value == "cats" then catcount = petArray.size
-        else @pets[type].value == "dogs" then dogcount = petArray.size 
+        else @pets[type].value == "dogs" then dogcount = petArray.size end
     }
+
+
+
   end
 
 end
