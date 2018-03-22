@@ -163,7 +163,6 @@ describe Owner do
         owner.buy_dog("Fido")
         owner.buy_dog("Snuffles")
         owner.buy_dog("Charley")
-        binding.pry
         expect(owner.list_pets).to eq("I have 2 fish, 3 dog(s), and 1 cat(s).")
       end
     end
