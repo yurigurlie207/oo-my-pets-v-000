@@ -8,7 +8,7 @@ class Owner
     @owner = owner
     @@all << self
     @species = "human"
-    @pets = {fishes: [], cats: [], dogs: []}
+    @pets = { fishes: [], cats: [], dogs: [] }
   end
 
   def species=(species)
