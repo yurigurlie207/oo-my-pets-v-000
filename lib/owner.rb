@@ -4,7 +4,7 @@ class Owner
 
   @@all = []
 
-  def initialize(owner)
+  def initialize(owner, species)
     @owner = owner
     @@all << self
     @species = "human"
